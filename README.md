@@ -29,12 +29,10 @@ update database credentials in .env file => DB_HOST, DB_DATABASE, DB_USERNAME, D
 
 ## Testing
 
+follow this command if you want to use different database for testing environments and update database credentials in .env.testing file 
 - cp .env.example .env.testing 
 
-* follow this command if you want to use different database for testing environments and update database credentials in .env.testing file 
-
-* Test cases are written in tests directory, to run tests cases use following command
-
+Test cases are written in tests directory, to run tests cases use following command
 - php artisan test
 
 
